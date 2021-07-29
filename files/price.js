@@ -7,5 +7,4 @@ function returnVal() {
 
 }
 
-
 module.exports = { returnVal }
