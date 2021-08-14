@@ -4,7 +4,8 @@
     "description": "decentralization is the future",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "format": "prettier --write \"**/*.js\""
     },
     "author": "pka.pranayandra02atgmaildotcom",
     "license": "ISC",
@@ -12,6 +13,7 @@
         "axios": "^0.21.1",
         "crypto-js": "^4.1.1",
         "dotenv": "^10.0.0",
+        "prettier": "^2.3.2",
         "web3": "^1.4.0"
     }
 }
